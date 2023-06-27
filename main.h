@@ -3,4 +3,5 @@
 int _printf(const char *format, ...);
 int _putchar(char c);
 int our_printf(const char *format, ...);
+void our_printf(const char *format, ...);
 #endif
