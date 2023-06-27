@@ -1,29 +1,7 @@
-#0x11. C - printf
-#C - Group project(teams)
-#printf (project directory)
-
-#Mendatory tasks
-0. I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life
-Write a function that produces output according to a format.
-
-#Prototype: int _printf(const char *format, ...);
-Returns: the number of characters printed (excluding the null byte used to end output to strings)
-write output to stdout, the standard output stream
-format is a character string. The format string is composed of zero or more directives. See man 3 printf for more detail. You need to handle the following conversion specifiers:
-c
-s
-%
-You don’t have to reproduce the buffer handling of the C library printf function
-You don’t have to handle the flag characters
-You don’t have to handle field width
-You don’t have to handle precision
-You don’t have to handle the length modifiers
-1. Education is when you read the fine print. Experience is what you get if you don't
-Handle the following conversion specifiers:
-
-d
-i
-You don’t have to handle the flag characters
-You don’t have to handle field width
-You don’t have to handle precision
-You don’t have to handle the length modifiers
+This is a README for our collaborative project. THe project will be done in these steps:
+1. we have to have a file to handle our prototypes. Will call ours our_header.h
+2. we have to have a file with the implementation of the functions, your main.c but will call ours our_functions.c
+3. the third file has to have our function definitions. The compilation will only be possible when these files are linked by referencing "our_header.h" within our_functions.c 
+4. while we have the prototype for printf, we need to add our own definition of printf sow ill have a prottype int our_printf(const char *format, ... ). It follows therefore that our_header.h will have this prototype!
+5. The tricky part is having to handle the different format specifiers within our_printf fuction, but it can be done, one case at a time!
+6. Luleko and Willard
