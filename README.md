@@ -1,4 +1,4 @@
-This is a README for our collaborative project. THe project will be done in these steps:
+This is a README for our collaborative project. The project will be done in these steps:
 1. we have to have a file to handle our prototypes. Will call ours our_header.h...well will call it main.h, they specified so!
 2. we have to have a file with the implementation of the functions, your main.c but will call ours our_functions.c
 3. the third file has to have our function definitions. The compilation will only be possible when these files are linked by referencing "our_header.h" within our_functions.c 
